@@ -19,7 +19,7 @@ if os.path.exists(CACHE_FILE):
         print(f"✅ Cache loaded from {CACHE_FILE}, {len(cache)} entries")
     except Exception as e:
         print("⚠️ Could not load cache:", e)
-        print("test")
+    
 
 def get_cache_key(resume_text, job_posting):
     """Create a unique hash key for a resume + job pair"""
