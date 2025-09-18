@@ -39,7 +39,7 @@ source .venv/bin/activate   # Mac/Linux
 
 pip install -r requirements.txt
 
-OPENAI_API_KEY=your_api_key_here
+OPENAI_API_KEY=your_api_key_here    #place in .env file in resume_analyzer
 
 uvicorn server:app --reload
 
